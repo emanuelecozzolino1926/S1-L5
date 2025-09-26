@@ -81,3 +81,32 @@ header {
     margin-bottom: 50px;
 }
 
+.guarantes-cont{
+    background-color: #E32B10;
+    width: 90%;
+}
+
+.guarantes-color{
+    color: white;
+}
+
+.guarantes-font{
+    font-family: "Open Sans", sans-serif;
+}
+.guarantes-main-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.guarantes-subtitle{
+    line-height: 1.65;
+    font-style: italic;
+}
+
+.ceo-cont {
+    line-height: 1.65;
+}
+
+.ceo-name{
+    font-size: 23px;
+}
