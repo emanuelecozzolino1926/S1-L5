@@ -145,3 +145,27 @@ header {
     color: #393d41 ;
     padding: 3px;
 }
+
+/* Footer */
+footer{
+    background-color: #25a2c3;
+}
+
+.a-style{
+    color: white;
+    font-weight: 400;
+}
+
+.line-height{
+    line-height: 1.65;
+}
+
+.line{
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: 20px auto 20px auto;
+}
+
+.f-w{
+    font-weight: 100;
+}
