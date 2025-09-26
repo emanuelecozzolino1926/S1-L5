@@ -51,3 +51,33 @@ header {
     border-radius: 5px;
     font-weight: bolder;
 }
+
+/* MAIN */
+
+.benefit-cont{
+    width: 90%;
+    margin-top: 50px;
+}
+
+.margin-b > p{ 
+    margin-bottom: 20px;
+}
+
+.benefit-title > h3{
+    color: #25a2c3 ;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.benefit-font{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+.benefit-img{
+    border-radius: 50%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
