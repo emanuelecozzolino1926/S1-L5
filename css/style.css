@@ -13,3 +13,41 @@ header {
     height: 50px;
 }
 
+/* Sub-header */
+
+.sub-header {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.font-subheader{
+    font-family: "Montserrat", sans-serif;
+}
+
+.sub-header-title{
+    font-size: 30px;
+    color: #25a2c3 ;
+    font-weight: bold;
+}
+
+.sub-header-paragraph{
+    font-size: 20px;
+    color: #393d41 ;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.button-start{
+    background-color: #f04c2f;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
