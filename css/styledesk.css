@@ -56,34 +56,55 @@ header {
 
 /* MAIN */
 
-.benefit-cont{
-    margin-top: 50px;
+.benefit-cont {
+  margin-top: 50px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table; 
+  width: 100%;
 }
 
-.margin-b > p{ 
-    margin-bottom: 20px;
+.image-cont, .img-desc{
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.benefit-title > h3{
-    color: #25a2c3 ;
-    font-weight: bold;
-    margin-bottom: 20px;
+.image-cont{ 
+    width: 40%; 
+    text-align: center; 
 }
-
-.benefit-font{
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.65;
+.img-desc{ 
+    width: 60%; 
+    text-align: left; 
+    padding-left: 30px; 
+    padding: 20px;
 }
 
 .benefit-img{
     border-radius: 50%;
-    height: 300px;
-    margin-bottom: 50px;
+    height: 500px;
+    padding: 20px;
+}
+.img-desc > p{ 
+    margin-bottom: 20px;
+}
+.img-desc > h3{
+    color: #25a2c3 ;
+    font-weight: bold;
+    margin: 10px 0 6px;
+}
+
+.img-desc{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41 ;
 }
 
 .guarantes-cont{
     background-color: #E32B10;
+    padding: 60px;
 }
 
 .guarantes-color{
@@ -101,6 +122,7 @@ header {
 .guarantes-subtitle{
     line-height: 1.65;
     font-style: italic;
+    font-size: 25px;
 }
 
 .ceo-cont {
