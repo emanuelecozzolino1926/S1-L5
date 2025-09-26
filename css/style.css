@@ -1,1 +1,15 @@
-/* Your styles here */
+/* Header */
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.img-size{
+    height: 50px;
+}
+
